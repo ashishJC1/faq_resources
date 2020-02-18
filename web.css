@@ -1,0 +1,1130 @@
+/*
+  Helpshift Web Support Portal CSS
+  ================================
+
+  This CSS overrides the default web support portal CSS. You can
+  edit the styles below to match your site's look &amp; feel.
+
+  Web Support Portal is responsive -
+    * Sections on support page are presented in 3, 2, 1 column on
+      desktop, tablets, mobile devices respectively
+    * App &amp; Platform navigation are are shown via popup menu on mobile
+      devices
+    * The 'Contact Us' button is anchored to the bottom on mobile devices
+
+Reference:
+cookie jam color: rgba(243,110,147,1)
+
+WWD: rgba(2, 59, 84, 0.95)
+
+
+*/
+
+
+/* -------------------------------------------------------
+   Layout &amp; General
+   ------------------------------------------------------- */
+
+/* Page's background &amp; text, global font style &amp; size */
+body {
+    background-color: #111;
+    color: #444444;
+    font: 16px/1.4 "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+background: url(https://jamcity-corp.akamaized.net/wp-content/themes/sgn_2014_06_01/images/bg_executive_team.png);
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#app-wild-things-animal-adventures {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/u8LYjQzHgrVokpQIIMTGZoTHkWZIWfTjw8wZQRM2f9-DJVdenmKDBs0CUkrZY0Zzkq1cw-t_iVDfinaijyK5Pq8LkNdpGZ5MPm_04JEkwPgLhOmGRtyovy-iEMVkzcNli7MjLHIKHw=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#app-cookie-jam  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/Q8LHVmcLHQljHC7ZF2XwM-m_Vj4yPqHrsbgI6xN0WclIRNf9euAhSuIDRsDeR2jiNUBiDFjV_4APrHP-Sf5MmTHSbEn2YCTBY5R3N8qPOwmdv36WipNZw9Dp9804L_WphfwdkRVs1g=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body#app-frozen-freefall  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/YQW-S-j7oj6QuuF_T-UTSjDk5441wBAwPn1kO14ciBSjlmn-CFJHccyqFPxKDtCSyehohBcntwQmpT7v8lRzxc__gqS3UKbxSxbmBRybGjYO3mxqmxe3gBdecOMAdOIdaMdABzVXAg=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-solitaire-showtime  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/80V39mvmIJwm8IOyZMEKKO3q2_SU2AeyLScAkw3J-zgIUTvwZO6M68TGJ-DNIdU-i_SQ5i5M1ddrbiywwQck9pxWNIjO4hofGq0cbekvYdWRDx5h0COeIr38fS57kpV1lJlHUKYNpw=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-frozen-adventures {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/JcgYX1-mxt7IG7OegribyfeuZdurMhP83AykjGrifWZewEhqw5Lv1GqKDcgtl8_QsoUQBBN8AAU0uJ6sY4Vmacuwq5Uy3JwjeQTirYEJ6Ft5giiadM_5rJ-YKNbND9w_r7MyMtRxDQ=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#app-cookie-jam-blast  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/-8JyaWwScjTpzGjvLRakUZdHMS_q3YZln0qyAeW_aAmoFqXnzLwVCdm5ks_7vPBpXp0HN7BdDo6k_lmghDHGK1EYvmqtUomrBc3pjPOtMuYTmREIsibayGuwowCWhakuy0zJ4lbC5Q=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#app-panda-pop  {
+   /* background-color: #B7CB88; */
+   background: url(https://lh3.googleusercontent.com/o6kS9N5zipPPpFwB1-uHhUbU0VjoHj6Ec0Cu-cnDDBHC8uF3Zr8ixzSNRuK0pj19qUy5GOy6pZ44y97SOY_FLfp9TyrVLdLsllaBWmaVkjUdok_k9CeswQDtJaBNKJ-kvZ0Y6EvR5Q=w2400?.jpg) no-repeat center;  
+
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-sugar-smash-book-of-life {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/fn7in2RI8fouCxXEqFKMlK4QrNqIahZJ99DSAJ1vUGfaWWsZmuPKmSUAKCnTGXXJMjtNtQH5U4iy-KZczMzRr6UkJ4WlbAygBxPdHWtK_pdEEoU3CD1LtpHAsdAHCaqSCU6pxiCfzg=w2400?.jpg) no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-juice-jam  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/Y9DIImIro6NrxkR_B-asfvtNNWMYH34Fu8w56lncVE3nf3XjREQICqcJQDNrLjXMho345nzBYVc4_wRimMY1Z4By7lgfh8d8ITRVlpEEne5rH2ddEwoYZ4Eqm540E1g4VDrj1u-pMA=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-mahjong-city-tours  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/ZzUHZAoQ7oYXrqNUMXcWN1cwpeE-BkTlXd40LfSxH_Jgh2r49Fctf1KxuEROD19ljPVYgpfEZv78yCMVtE0oh3B-sdPfd0yML0DnbTGwr4aws3SzbUqWk-LNfDa5mf0QNk7F3Q-BZQ=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-genies-and-gems  {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/wFuSRwVC2GgrwRY2xOhLe-C0oWpHfsSQkhNqmOXefTDDFUg8Q5EcwbvEeYP5B8CCpY4UdOSNpW25-LvNgKKxzq26WkaAfBlczWMi8KJ25l-07Uhme8_UnYZrxLgGDLgjvOo-I7VeAQ=w2400?.jpg
+)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-world-war-doh  {
+background:  url(https://www.dropbox.com/s/a4cqolrcbmqw23m/WWD_art.png?raw=1) no-repeat center;
+
+    font-family: Uptown,sans-serif !important;
+    color: #fff; 
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-color: black;
+}
+body#app-family-guy-afmg {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/jQkcYIb2cgi1irBk5Evuc32y4etqoak_DSplxiNiniXG0aqOAyDzGEVJ3FPXhXpyWs_IAWIate8_qPGRYlAzht53DU9ezW7sLMZC6C_N0o_WB-OQv2SYvLfKW2MiOAnXFElbupZIkQ=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#app-snoopy-pop {
+   /* background-color: #B7CB88; */
+    background: url(https://lh3.googleusercontent.com/31EvjqWT6ZZvljVOkRRnUnL8HGbxus_Fb79wOEX3gqIO-Z-3uUxhq-aKwFMWZ5M07FRf0PsE1SmGQqxnE0Ilo8kqzkyMz6JqujITgJlICzrhtopiP8JquFb__4W3Hk8CNZDP77Oi_g=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-vineyard-valley {
+    background: url(https://lh3.googleusercontent.com/GKH9JvQaE31ui1ILhetcotA0874hoviB0KALEXnyrJa0Hb1_4iRaS9V5BaOsJzK6txyKA38HB7U6xpvHDBL5dWHwS2VxE9v5U7TOdsFo-a_W0v44OJtez2-hqf3eWJ-2gMcdpyaRxg=w2400?.jpg
+)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#app-harry-potter-hogwarts-mystery {
+    background: url(https://lh3.googleusercontent.com/kAAK0Ko5KsQPxJ1VcAha1ohInb3jgThcQ73WV1KR1EFYZXPAbg4q47_CN99XQXgWRxM-8dwpLK1OtjJGHPFpUakupQTK6nFIeMMKRgKRc0nl90mDY8rlNHq_WZvC6VugtvH4POkjAg=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body#app-family-guy-the-quest-for-stuff {
+    background: url(https://lh3.googleusercontent.com/DnIluQtFjj6w_6IPiFD3yPwYbWMPLXVvqmo1leFwIcoVE92LiPYx1Hmqt0J-ZHkcfccO9BZ2PlUWfEtqb_-fUf_tH97B-BQkG8_SGAcCwW0zJhb8DDzi0JPgtuBUlskwKbtsqZsT4Q=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#app-futurama-worlds-of-tomorrow{
+    background: url(https://lh3.googleusercontent.com/SJx1lWIAcZxwT0TpiG9GR1xmsuoLwZbhQzQY-pnWTk5RG6c7eIeeIfLSTaOvCuOuxsts8-YEqrO_2RBkiUydB4tn-7uynOPULAub0DOVOad8LGWMyU4D7mJUsgniuQSV8lUPtTs2IQ=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body#app-emoji-blitz{
+    background: url(https://lh3.googleusercontent.com/qHOM7J-5-qteRHAZD96qc_MSz-2n6LE0b0oKj28cELGgOHE-xNV_qyHOTizbcaVBiwcps-6osdEUypQFEIEIhP_D5mhpDOd7a-I3_XF4VthvB54jc7Ew-cc16x0JLYqpNOVBlqcMdQ=w2400?.jpg)  no-repeat center;
+    font-family: Uptown,sans-serif !important;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*FFF*/
+#app-frozen-freefall .popover-content {
+    background: rgb(0,109,155);
+}
+#app-frozen-freefall .section-title {
+    
+  background:  rgba(0,109,155,0.9);
+   border: 0px solid rgba(215,216,165,1); 
+ }
+#app-frozen-freefall .actions-wrapper{
+  background:  rgba(0, 109, 155,0.9);
+     border: 0px solid rgba(215,216,165,1); 
+} 
+#app-frozen-freefall .answer-wrapper {
+    
+  background:  rgba(255, 250, 233, 0.9);
+    border: 4px solid rgba(57,164,206,1);
+}
+#app-frozen-freefall a {
+    color: #0048AE;
+}
+#app-frozen-freefall .section-title a {
+    color: white !important;
+}
+#app-frozen-freefall .breadcrumb a {
+    color: white !important;
+}
+#app-frozen-freefall .faq-list a {
+    color: #0048AE;
+}
+
+#app-frozen-freefall .contact-button {
+    background: rgba(90,206,95,1);
+}
+
+#app-frozen-freefall .contact-button:hover {
+    background: rgba(90,225,95,1);
+}
+
+#app-frozen-freefall .or-separator {
+    color: white;
+}
+
+
+#app-frozen-freefall .breadcrumb {
+    
+    border-radius: 7px;
+     background:  rgba(0, 109, 155,0.9);
+    border-bottom: 1px solid rgba(0, 109, 155,0.9); 
+    padding: 20px;
+    color: white;
+}
+#app-frozen-freefall .breadcrumb .separator{
+color: white;
+}
+#app-frozen-freefall .faq-list {
+    background:  rgba(255, 250, 233, 0.9);
+    border: 4px solid rgba(57,164,206,1);
+​}
+#app-frozen-freefall .faq-list .small {
+   background:  rgba(255, 250, 233, 0.9);
+    border: 4px solid rgba(57,164,206,1);
+}
+
+#app-frozen-freefall .faq-list .all-questions {
+    color: #ed207c;
+}
+​
+#app-frozen-freefall .answer-wrapper {
+     background:  rgba(0, 109, 155,0.9);
+    border-bottom: 1px solid rgba(0, 109, 155,0.9); 
+}
+​
+#app-frozen-freefall .answer-title {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/*FA*/
+#app-frozen-adventures .popover-content {
+    background: rgb(0,109,155);
+}
+#app-frozen-adventures .section-title {
+    
+  background:  rgba(0,109,155,0.9);
+   border: 0px solid rgba(215,216,165,1); 
+ }
+#app-frozen-adventures .actions-wrapper{
+  background:  rgba(0, 109, 155,0.9);
+     border: 0px solid rgba(215,216,165,1); 
+} 
+#app-frozen-adventures .answer-wrapper {
+    
+  background:  rgba(255, 250, 233, 0.9);
+    border: 4px solid rgba(57,164,206,1);
+}
+#app-frozen-adventures a {
+    color: #0048AE;
+}
+#app-frozen-adventures .section-title a {
+    color: white !important;
+}
+#app-frozen-adventures .breadcrumb a {
+    color: white !important;
+}
+#app-frozen-adventures .faq-list a {
+    color: #0048AE;
+}
+
+#app-frozen-adventures .contact-button {
+    background: rgba(90,206,95,1);
+}
+
+#app-frozen-adventures .contact-button:hover {
+    background: rgba(90,225,95,1);
+}
+
+#app-frozen-adventures .or-separator {
+    color: white;
+}
+
+
+#app-frozen-adventures .breadcrumb {
+    
+    border-radius: 7px;
+     background:  rgba(0, 109, 155,0.9);
+    border-bottom: 1px solid rgba(0, 109, 155,0.9); 
+    padding: 20px;
+    color: white;
+}
+#app-frozen-adventures .breadcrumb .separator{
+color: white;
+}
+#app-frozen-adventures .faq-list {
+    background:  rgba(255, 250, 233, 0.9);
+    border: 4px solid rgba(57,164,206,1);
+​}
+#app-frozen-adventures .faq-list .small {
+   background:  rgba(255, 250, 233, 0.9);
+    border: 4px solid rgba(57,164,206,1);
+}
+
+#app-frozen-adventures .faq-list .all-questions {
+    color: #ed207c;
+}
+​
+#app-frozen-adventures .answer-wrapper {
+     background:  rgba(0, 109, 155,0.9);
+    border-bottom: 1px solid rgba(0, 109, 155,0.9); 
+}
+​
+#app-frozen-adventures .answer-title {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/*CJ*/
+#app-cookie-jam .popover-content {
+    background: #bc5773;
+}
+#app-cookie-jam .section-title {
+    
+  background:  rgba(243,110,147,0.9);
+    border-top: 2px solid rgba(215,216,165,1); 
+}
+#app-cookie-jam .actions-wrapper{
+  background:  rgba(243,110,147,0.9);
+    border: 0px solid rgba(215,216,165,1); 
+
+} 
+#app-cookie-jam .answer-wrapper {
+    
+  background:  rgba(255, 250, 233, 0.9);
+    border: 5px solid rgba(240, 141, 170,1);
+}
+#app-cookie-jam a {
+    color: #d1a571;
+}
+#app-cookie-jam .section-title a {
+    color: white !important;
+}
+#app-cookie-jam .breadcrumb a {
+    color: white !important;
+}
+#app-cookie-jam .faq-list a {
+    color: #d1a571;
+}
+
+#app-cookie-jam .contact-button {
+    background: rgba(90,206,95,1);
+}
+
+#app-cookie-jam .contact-button:hover {
+    background: rgba(90,225,95,1);
+}
+
+#app-cookie-jam .or-separator {
+    color: white;
+}
+
+
+#app-cookie-jam .breadcrumb {
+    
+    border-radius: 7px;
+     background:  rgba(243,110,147,0.9);
+    border-bottom: 1px solid rgba(243,110,147,1); 
+    padding: 20px;
+    color: white;
+}
+#app-cookie-jam .breadcrumb .separator{
+color: white;
+}
+#app-cookie-jam .faq-list {
+    background:  rgba(255, 250, 233, 0.9);
+    border: 5px solid rgba(240, 141, 170,1);
+​}
+#app-cookie-jam .faq-list .small {
+   background:  rgba(255, 250, 233, 0.9);
+    border: 5px solid rgba(240, 141, 170,1);
+}
+
+#app-cookie-jam .faq-list .all-questions {
+    color: #ed207c;
+}
+​
+#app-cookie-jam .answer-wrapper {
+     background:  rgba(243,110,147,0.9);
+    border-bottom: 1px solid rgba(243,110,147,1); 
+}
+​
+#app-cookie-jam .answer-title {
+    color: #ffffff;
+}
+
+/*CJB*/
+
+#app-cookie-jam-blast .popover-content {
+    background: #bc5773;
+}
+
+#app-cookie-jam-blast .section-title {
+    
+  background:  rgba(243,110,147,0.9);
+    border-top: 2px solid rgba(215,216,165,1); 
+}
+#app-cookie-jam-blast .actions-wrapper{
+  background:  rgba(243,110,147,0.9);
+    border: 0px solid rgba(215,216,165,1); 
+
+} 
+#app-cookie-jam-blast .answer-wrapper {
+    
+  background:  rgba(255, 250, 233, 0.9);
+    border: 5px solid rgba(240, 141, 170,1);
+}
+
+#app-cookie-jam-blast a {
+    color: #d1a571;
+}
+#app-cookie-jam-blast .section-title a {
+    color: white !important;
+}
+#app-cookie-jam-blast .breadcrumb a {
+    color: white !important;
+}
+#app-cookie-jam-blast .faq-list a {
+    color: #d1a571;
+}
+
+#app-cookie-jam-blast .contact-button {
+    background: rgba(90,206,95,1);
+}
+
+#app-cookie-jam-blast .contact-button:hover {
+    background: rgba(90,225,95,1);
+}
+
+#app-cookie-jam-blast .or-separator {
+    color: white;
+}
+
+
+#app-cookie-jam-blast .breadcrumb {
+    
+    border-radius: 7px;
+     background:  rgba(243,110,147,0.9);
+    border-bottom: 1px solid rgba(243,110,147,1); 
+    padding: 20px;
+    color: white;
+}
+#app-cookie-jam-blast .breadcrumb .separator{
+color: white;
+}
+#app-cookie-jam-blast .faq-list {
+    background:  rgba(255, 250, 233, 0.9);
+    border: 5px solid rgba(240, 141, 170,1);
+​}
+#app-cookie-jam-blast .faq-list .small {
+   background:  rgba(255, 250, 233, 0.9);
+    border: 5px solid rgba(240, 141, 170,1);
+}
+
+#app-cookie-jam-blast .faq-list .all-questions {
+    color: #ed207c;
+}
+​
+#app-cookie-jam-blast .answer-wrapper {
+     background:  rgba(243,110,147,0.9);
+    border-bottom: 1px solid rgba(243,110,147,1); 
+}
+​
+#app-cookie-jam-blast .answer-title {
+    color: #ffffff;
+}
+
+/*WWD*/
+#app-world-war-doh .actions-wrapper, 
+#app-world-war-doh .answer-wrapper {
+    
+  background: rgba(2, 59, 84, 0.95);
+    border-bottom: 1px solid rgba(2, 59, 84, 1); 
+}
+
+#app-world-war-doh a {
+    color: white ;
+}
+
+#app-world-war-doh .contact-button {
+    background: rgba(236, 56, 107, 1);
+}
+
+#app-world-war-doh .contact-button:hover {
+    background: rgba(255, 56, 107, 1);
+}
+
+#app-world-war-doh .or-separator {
+    color: white;
+}
+
+
+#app-world-war-doh .breadcrumb {
+    background: rgba(2, 59, 84, 0.95);
+    border-radius: 7px;
+    border-bottom: 1px solid rgba(2, 59, 84, 1);
+    padding: 20px;
+    color: white;
+}
+#app-world-war-doh .breadcrumb .separator{
+color: white;
+}
+#app-world-war-doh .faq-list {
+    background: rgba(2,59,84,0.95);
+}
+​
+#app-world-war-doh .faq-list .small {
+    background: rgba(2, 59, 84, 0.95);
+}
+​
+#app-world-war-doh .faq-list .all-questions {
+    color: rgba(255,255,84,1);
+}
+​
+#app-world-war-doh .answer-wrapper {
+    background: rgba(2,59,84,0.9);
+}
+​
+#app-world-war-doh .answer-title {
+    color: #ffffff;
+}
+
+.mobile-nav {
+    background: rgba(2, 59, 84, 0.95);
+}
+.mobile-nav .popover-content-wrapper .label{
+    color: #fff;
+}
+span.icon-arrow {
+   
+    border-color: #fff transparent transparent transparent;
+    border-radius: 9px;
+
+}
+.popover-content {
+      background: #215168;
+}
+
+.dropdown-wrapper.title, .selected-app.js-app-title, .app-selection a{
+    color: #fff;
+}
+
+
+
+
+.title{
+   color: #fff !important;
+}
+
+.popover-title-container .icon-arrow {
+ color: #ddd !important; 
+ border-color: #d7d8db transparent transparent !important; 
+}
+
+.dropdown-wrapper .platform-icon {
+  display: none;
+}
+
+
+/* CHANGES*/
+.column {
+     padding: 10px;
+
+}
+@media only screen and (max-width: 767px){
+.column {
+
+    border-bottom: 0px solid #d7d8db;
+}
+}
+
+.sections-wrapper {
+   padding-top: 20px;
+}
+
+.platform-name {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* Default link color */
+a {
+    color: #4D7CA8;
+}
+
+/* Page header */
+.header {
+    /*DEFAULT*/
+    /*border-bottom: 1px solid #21535C; */ 
+  padding: 10px 30px 10px 30px;
+border-bottom: 0px solid #21535C; 
+}
+
+/* Company name (h1 tag) */
+.company-name {
+    margin-top: 18px;
+
+   
+     background: url(https://lh3.googleusercontent.com/VF3fHdyXSkzR4_tuu091zt6sHISE1AfT22LvQ5lu8F77X-Xh7G9BU2iGuAcnoKTQFfFUNx2F9TrTOvFzs7KzcbVILiAR8FQsWPWZ0L-7Ck3wRxxMnXlkPfxEu0R05fDo3tPYizO6mQ=w2400) no-repeat;
+color: rgba(0,0,0,0);
+background-size: 155px;
+
+/* Un-comment the following to use your company logo. We recommend you keep
+   the logo within 45px height */
+/*
+    text-indent: -99999px;
+    background: url(https://lh3.googleusercontent.com/VF3fHdyXSkzR4_tuu091zt6sHISE1AfT22LvQ5lu8F77X-Xh7G9BU2iGuAcnoKTQFfFUNx2F9TrTOvFzs7KzcbVILiAR8FQsWPWZ0L-7Ck3wRxxMnXlkPfxEu0R05fDo3tPYizO6mQ=w2400) no-repeat;
+*/
+
+}
+
+/* -------------------------------------------------------
+   RTL Support
+   ------------------------------------------------------- */
+
+/* Web Support Portal supports display of RTL languages.
+   You can use the "rtl" class on body to target any RTL specific styles -
+
+    body.rtl {
+    }
+*/
+
+/* Section columns are rendered from right to left. If you need to make a
+   change to columns in that case, use this selector -
+
+    body.rtl .sections-wrapper .column {
+    }
+*/
+
+
+/* -------------------------------------------------------
+   Navigation
+   ------------------------------------------------------- */
+
+/* Container for app &amp; platforms dropdown, the search bar &amp; the contact
+   us button. */
+.actions-wrapper {
+    /*DEFAULT*/
+    /*padding: 10px 0px;
+    border-bottom: 1px solid #21535C; */
+
+    background: #215168;
+    padding: 20px;
+    border-radius: 7px;
+        border-bottom: 1px solid #21535C  ;
+
+}
+.actions-wrapper .popover-container .popover-content-wrapper {
+  border: 0px solid #dddddd ;
+}
+.actions-wrapper .popover-container .popover-content li:hover {
+    background: #eb386b;
+}
+/* Contact Us button */
+
+.contact-button {
+    font-size: 18px;
+    color: #ffffff;
+    background: rgba(236, 56, 107, 1);
+    padding: 0px 22px;
+    border: none;
+}
+.contact-button:hover {
+    background: rgba(255, 56, 107, 1);
+}
+
+#app-kitty-city-harvest-valley .contact-button{
+    display: none;
+}
+
+#app-paint-monsters .contact-button{
+    display: none;
+}
+
+#app-naughty-monster-story .contact-button{
+    display: none;
+}
+
+#app-panda-jam .contact-button{
+    display: none;
+}
+
+#app-solitaire-jam .contact-button{
+    display: none;
+}
+
+/* 'OR' separator between search box and contact button */
+.or-separator {
+    color: #999999;
+}
+
+#app-kitty-city-harvest-valley .or-separator {
+     display: none;
+}
+
+#app-solitaire-jam .or-separator {
+     display: none;
+}
+
+#app-paint-monsters .or-separator {
+    display: none;
+}
+
+#app-naughty-monster-story .or-separator {
+    display: none;
+}
+
+#app-panda-jam .or-separator {
+    display: none;
+}
+
+/* Style the contact us button for mobile devices.
+   Note: it gets anchored to to bottom of the page */
+.mobile-report-wrapper .contact-button {
+    font-size: 14px;
+}
+
+/* Responsive navigation menu for mobile devices. If you've altered the
+   header size, you can re-position it appropriately here */
+.mobile-nav {
+    top: 0px;
+    right: 0px;
+   background: rgba(2, 59, 84, 0.95);
+    color: #fff;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    /*DEFAULT*/
+    /* color for tail */
+    color: #ddd;
+
+    margin-bottom: 10px;
+    /* margin-left: 20px; */
+    background: #264a61;
+    padding: 20px;
+     
+}
+.breadcrumb li a {
+    /* links */
+}
+.breadcrumb .separator {
+    /* separators */
+    color: #444444;
+}
+
+
+/* -------------------------------------------------------
+   Support Page
+   ------------------------------------------------------- */
+
+/* Section's title on support page &amp; individual sections */
+.section-title {
+   /*DEFAULT*/
+   /* the title of each box section in main page*/
+   /* color: #555555;
+    border-radius: 5px 5px 0 0;*/
+    
+    color: #fff;
+    background: rgba(2,59,84,0.85);
+    
+    border-top: 2px solid #21535C;
+border-radius: 7px 7px 0 0;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+/* Link color for sections on support page */
+.section-title a {
+    color: inherit;
+}
+
+/* Arrow indicators for section titles */
+.section-arrow {
+    font-size: 14px;
+}
+
+/* FAQ links on support page &amp; individual sections */
+
+/*DEFAULT*/
+.faq-list { 
+   background: bisque;
+        padding: 30px 30px 30px 30px;
+        width: 95% important!; 
+    border-radius: 0px 0px 7px 7px;
+    min-height: 274px ;
+}
+
+.faq-list a {
+    font-size: 15px;
+}
+
+.faq-list .small {
+   /*DEFAULT*/
+   /**/
+   /*
+    padding: 5px;
+    border-radius: 0 0 5px 5px; */
+    
+    background: bisque;
+    /*border-left: 2px solid #21535C;
+    border-right: 2px solid #21535C;
+    border-bottom: 2px solid #21535C;*/
+    padding: 30px;
+   
+}
+/* All questions link under sections */
+.faq-list .all-questions {
+    color: #666666;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+
+/* -------------------------------------------------------
+   Search Box &amp; Search Results
+   ------------------------------------------------------- */
+
+/* Search Box */
+.search-input {
+    /*DEFAULT*/
+    background: #ffffff;
+    padding: 8px 32px ;
+    border: 1px solid #ccd1d7;
+    font-size: 16px;
+
+    border-radius: 5px;
+}
+@media only screen and (max-width: 767px) {
+.search-input {
+    padding: 13px 15px 13px 32px !important;
+}
+}
+/* Search icon color */
+.icon-search {
+    color: #c4c4c4;
+}
+
+/* Header for search results */
+.search-title {
+    color: #666666;
+}
+
+/* Error message when no search results are found */
+.no-results {
+}
+
+/* Section labels besides search result links */
+.section-label {
+    font-size: 12px;
+    color: #999999;
+}
+
+
+/* -------------------------------------------------------
+   Answers
+   ------------------------------------------------------- */
+
+/* Container for answer title, body and footer */
+.answer-wrapper {
+    /*DEFAULT*/
+    /*width: 100% */
+
+    background: bisque;
+    padding: 50px 30px 30px 30px;
+    width: 95% important!; 
+    border-radius: 0px 0px 7px 7px;
+}
+
+/* Question title for answer page */
+.answer-title {
+    color: #444444;
+}
+
+#app-snoopy-pop .answer-title{
+   color: #40889a;
+}
+#app-world-war-doh .answer-title{
+   color: #ffffff;
+}
+
+/* Answer's body*/
+.answer {
+}
+
+/* Last updated and permalink footer for answer */
+.answer-footer {
+    color: #999999;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+
+/* -------------------------------------------------------
+   Contact Us Window
+   ------------------------------------------------------- */
+
+/* Window header */
+#report-issue-modal .modal-head {
+}
+
+/* Window title */
+#report-issue-modal .modal-head h4 {
+    color: #666666;
+}
+
+/* Close button */
+#report-issue-modal .modal-head .close-btn {
+    color: #757575;
+}
+
+/* Submit button */
+#report-issue-modal .modal-footer .modal-submit-button {
+    background: #f26a67;
+}
+
+
+
+
+.app-navigator .popover-title img[data-app="mindjolt"] {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+
+    background: url("https://mindjolt-a.akamaihd.net/static/image/fbmain/mjlogo.png");
+    background-repeat: no-repeat;
+    background-size: 40px 25px !important;
+    background-position: left center;
+}
+
+.app-dropdown li[data-app="mindjolt"] img {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+
+    background: url("https://mindjolt-a.akamaihd.net/static/image/fbmain/mjlogo.png");
+    background-repeat: no-repeat;
+    background-size: 40px 25px !important;
+    background-position: left center;
+
+}
+
+.actions-wrapper .app-selection .app-icon[data-app="mindjolt"] {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 12px !important;
+
+    background: url("https://mindjolt-a.akamaihd.net/static/image/fbmain/mjlogo.png");
+    background-size: cover !important;
+}
+
+#report-issue-modal .field-app-dropdown li[data-app="mindjolt"] img,
+#report-issue-modal .field-app-dropdown[data-app="mindjolt"] .dropdown-title img {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 16px !important;
+
+    background: url("https://mindjolt-a.akamaihd.net/static/image/fbmain/mjlogo.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: 32px 20px !important;
+    background-position: left center;
+}
+
+
+
+
+
+.app-navigator .popover-title img[data-app="world-war-doh"] {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+
+    background: url("https://lh3.googleusercontent.com/msVnyy6KA36LhHvVmXPoTFaVlzlqqLm8INc5k0saqvNZ-y4Z4BIfqwtFMdJDEEJlmQ=s180");
+    background-size: cover !important;
+}
+.app-dropdown li[data-app="world-war-doh"] img {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+
+    background: url("https://lh3.googleusercontent.com/msVnyy6KA36LhHvVmXPoTFaVlzlqqLm8INc5k0saqvNZ-y4Z4BIfqwtFMdJDEEJlmQ=s180");
+    background-size: cover !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+}
+
+.actions-wrapper .app-selection .app-icon[data-app="world-war-doh"] {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 12px !important;
+
+    background: url("https://lh3.googleusercontent.com/msVnyy6KA36LhHvVmXPoTFaVlzlqqLm8INc5k0saqvNZ-y4Z4BIfqwtFMdJDEEJlmQ=s180");
+    background-size: cover !important;
+}
+
+#report-issue-modal .field-app-dropdown li[data-app="world-war-doh"] img,
+#report-issue-modal .field-app-dropdown[data-app="world-war-doh"] .dropdown-title img {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 16px !important;
+
+    background: url("https://lh3.googleusercontent.com/msVnyy6KA36LhHvVmXPoTFaVlzlqqLm8INc5k0saqvNZ-y4Z4BIfqwtFMdJDEEJlmQ=s180") !important;
+    background-size: cover !important;
+}
+
+
+.app-navigator .popover-title img[data-app="wild-things-animal-adventures"] {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+
+    background: url("https://lh3.googleusercontent.com/DHQ8gwoE_l3cZ892U4UVklVexknxQMh1MFum_N77p3iXt5qmXkAKVzCyJKdYANzp5g=s180");
+    background-size: cover !important;
+}
+.app-dropdown li[data-app="wild-things-animal-adventures"] img {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+
+    background: url("https://lh3.googleusercontent.com/DHQ8gwoE_l3cZ892U4UVklVexknxQMh1MFum_N77p3iXt5qmXkAKVzCyJKdYANzp5g=s180");
+    background-size: cover !important;
+    width: 0 !important;
+    height: 0 !important;
+    padding: 20px !important;
+}
+
+.actions-wrapper .app-selection .app-icon[data-app="wild-things-animal-adventures"] {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 12px !important;
+
+    background: url("https://lh3.googleusercontent.com/DHQ8gwoE_l3cZ892U4UVklVexknxQMh1MFum_N77p3iXt5qmXkAKVzCyJKdYANzp5g=s180");
+    background-size: cover !important;
+}
+
+#report-issue-modal .field-app-dropdown li[data-app="wild-things-animal-adventures"] img,
+#report-issue-modal .field-app-dropdown[data-app="wild-things-animal-adventures"] .dropdown-title img {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 16px !important;
+
+    background: url("https://lh3.googleusercontent.com/DHQ8gwoE_l3cZ892U4UVklVexknxQMh1MFum_N77p3iXt5qmXkAKVzCyJKdYANzp5g=s180") !important;
+    background-size: cover !important;
+}
