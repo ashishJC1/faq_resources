@@ -29,118 +29,127 @@ WWD: rgba(2, 59, 84, 0.95)
 body {
     background-color: #111;
     color: #444444;
-    font: 16px/1.4 "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-background: url(https://jamcity-corp.akamaized.net/wp-content/themes/sgn_2014_06_01/images/bg_executive_team.png);
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    font-family: Uptown,sans-serif;
+    font-size: 16px;
+    background: url(https://jamcity-corp.akamaized.net/wp-content/themes/sgn_2014_06_01/images/bg_executive_team.png);
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*Cookie Jam | CJ */
+body#app-cookie-jam  {
+  background: url(https://www.dropbox.com/s/qjjt5j1b54amp7s/CJ.png?raw=1) no-repeat center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+
+body#app-cookie-jam-blast  {
+  background: url(https://www.dropbox.com/s/7bi01p0vrcm5uft/CJB.png?raw=1) no-repeat center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
 }
 
 body#app-wild-things-animal-adventures {
-   /* background-color: #B7CB88; */
+   
     background: url(https://lh3.googleusercontent.com/u8LYjQzHgrVokpQIIMTGZoTHkWZIWfTjw8wZQRM2f9-DJVdenmKDBs0CUkrZY0Zzkq1cw-t_iVDfinaijyK5Pq8LkNdpGZ5MPm_04JEkwPgLhOmGRtyovy-iEMVkzcNli7MjLHIKHw=w2400?.jpg) no-repeat center;
-    font-family: Uptown,sans-serif !important;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
-body#app-cookie-jam  {
-   /* background-color: #B7CB88; */
-    background: url(https://lh3.googleusercontent.com/Q8LHVmcLHQljHC7ZF2XwM-m_Vj4yPqHrsbgI6xN0WclIRNf9euAhSuIDRsDeR2jiNUBiDFjV_4APrHP-Sf5MmTHSbEn2YCTBY5R3N8qPOwmdv36WipNZw9Dp9804L_WphfwdkRVs1g=w2400?.jpg) no-repeat center;
-    font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 
 body#app-frozen-freefall  {
-   /* background-color: #B7CB88; */
-    background: url(https://lh3.googleusercontent.com/YQW-S-j7oj6QuuF_T-UTSjDk5441wBAwPn1kO14ciBSjlmn-CFJHccyqFPxKDtCSyehohBcntwQmpT7v8lRzxc__gqS3UKbxSxbmBRybGjYO3mxqmxe3gBdecOMAdOIdaMdABzVXAg=w2400?.jpg) no-repeat center;
+   
+    background: url(https://www.dropbox.com/s/bvn6kilthott9jk/Key-art_ipad-size-2.jpg?raw=1) no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
+
 body#app-solitaire-showtime  {
-   /* background-color: #B7CB88; */
+
     background: url(https://lh3.googleusercontent.com/80V39mvmIJwm8IOyZMEKKO3q2_SU2AeyLScAkw3J-zgIUTvwZO6M68TGJ-DNIdU-i_SQ5i5M1ddrbiywwQck9pxWNIjO4hofGq0cbekvYdWRDx5h0COeIr38fS57kpV1lJlHUKYNpw=w2400?.jpg) no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-frozen-adventures {
-   /* background-color: #B7CB88; */
+
     background: url(https://lh3.googleusercontent.com/JcgYX1-mxt7IG7OegribyfeuZdurMhP83AykjGrifWZewEhqw5Lv1GqKDcgtl8_QsoUQBBN8AAU0uJ6sY4Vmacuwq5Uy3JwjeQTirYEJ6Ft5giiadM_5rJ-YKNbND9w_r7MyMtRxDQ=w2400?.jpg) no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 body#app-cookie-jam-blast  {
-   /* background-color: #B7CB88; */
-    background: url(https://lh3.googleusercontent.com/-8JyaWwScjTpzGjvLRakUZdHMS_q3YZln0qyAeW_aAmoFqXnzLwVCdm5ks_7vPBpXp0HN7BdDo6k_lmghDHGK1EYvmqtUomrBc3pjPOtMuYTmREIsibayGuwowCWhakuy0zJ4lbC5Q=w2400?.jpg) no-repeat center;
-    font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+    background: url(https://www.dropbox.com/s/7bi01p0vrcm5uft/CJB.png?raw=1) no-repeat center;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 body#app-panda-pop  {
-   /* background-color: #B7CB88; */
-   background: url(https://lh3.googleusercontent.com/o6kS9N5zipPPpFwB1-uHhUbU0VjoHj6Ec0Cu-cnDDBHC8uF3Zr8ixzSNRuK0pj19qUy5GOy6pZ44y97SOY_FLfp9TyrVLdLsllaBWmaVkjUdok_k9CeswQDtJaBNKJ-kvZ0Y6EvR5Q=w2400?.jpg) no-repeat center;  
 
+    background: url(https://lh3.googleusercontent.com/o6kS9N5zipPPpFwB1-uHhUbU0VjoHj6Ec0Cu-cnDDBHC8uF3Zr8ixzSNRuK0pj19qUy5GOy6pZ44y97SOY_FLfp9TyrVLdLsllaBWmaVkjUdok_k9CeswQDtJaBNKJ-kvZ0Y6EvR5Q=w2400?.jpg) no-repeat center;  
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-sugar-smash-book-of-life {
-   /* background-color: #B7CB88; */
+
     background: url(https://lh3.googleusercontent.com/fn7in2RI8fouCxXEqFKMlK4QrNqIahZJ99DSAJ1vUGfaWWsZmuPKmSUAKCnTGXXJMjtNtQH5U4iy-KZczMzRr6UkJ4WlbAygBxPdHWtK_pdEEoU3CD1LtpHAsdAHCaqSCU6pxiCfzg=w2400?.jpg) no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-juice-jam  {
-   /* background-color: #B7CB88; */
+
     background: url(https://lh3.googleusercontent.com/Y9DIImIro6NrxkR_B-asfvtNNWMYH34Fu8w56lncVE3nf3XjREQICqcJQDNrLjXMho345nzBYVc4_wRimMY1Z4By7lgfh8d8ITRVlpEEne5rH2ddEwoYZ4Eqm540E1g4VDrj1u-pMA=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-mahjong-city-tours  {
-   /* background-color: #B7CB88; */
+
     background: url(https://lh3.googleusercontent.com/ZzUHZAoQ7oYXrqNUMXcWN1cwpeE-BkTlXd40LfSxH_Jgh2r49Fctf1KxuEROD19ljPVYgpfEZv78yCMVtE0oh3B-sdPfd0yML0DnbTGwr4aws3SzbUqWk-LNfDa5mf0QNk7F3Q-BZQ=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-genies-and-gems  {
-   /* background-color: #B7CB88; */
+
     background: url(https://lh3.googleusercontent.com/wFuSRwVC2GgrwRY2xOhLe-C0oWpHfsSQkhNqmOXefTDDFUg8Q5EcwbvEeYP5B8CCpY4UdOSNpW25-LvNgKKxzq26WkaAfBlczWMi8KJ25l-07Uhme8_UnYZrxLgGDLgjvOo-I7VeAQ=w2400?.jpg
 )  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
   background-size: cover;
 }
 body#app-world-war-doh  {
@@ -148,76 +157,76 @@ background:  url(https://www.dropbox.com/s/a4cqolrcbmqw23m/WWD_art.png?raw=1) no
 
     font-family: Uptown,sans-serif !important;
     color: #fff; 
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-background-color: black;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
 }
 body#app-family-guy-afmg {
    /* background-color: #B7CB88; */
     background: url(https://lh3.googleusercontent.com/jQkcYIb2cgi1irBk5Evuc32y4etqoak_DSplxiNiniXG0aqOAyDzGEVJ3FPXhXpyWs_IAWIate8_qPGRYlAzht53DU9ezW7sLMZC6C_N0o_WB-OQv2SYvLfKW2MiOAnXFElbupZIkQ=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 body#app-snoopy-pop {
    /* background-color: #B7CB88; */
     background: url(https://lh3.googleusercontent.com/31EvjqWT6ZZvljVOkRRnUnL8HGbxus_Fb79wOEX3gqIO-Z-3uUxhq-aKwFMWZ5M07FRf0PsE1SmGQqxnE0Ilo8kqzkyMz6JqujITgJlICzrhtopiP8JquFb__4W3Hk8CNZDP77Oi_g=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-vineyard-valley {
     background: url(https://lh3.googleusercontent.com/GKH9JvQaE31ui1ILhetcotA0874hoviB0KALEXnyrJa0Hb1_4iRaS9V5BaOsJzK6txyKA38HB7U6xpvHDBL5dWHwS2VxE9v5U7TOdsFo-a_W0v44OJtez2-hqf3eWJ-2gMcdpyaRxg=w2400?.jpg
 )  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 body#app-harry-potter-hogwarts-mystery {
     background: url(https://lh3.googleusercontent.com/kAAK0Ko5KsQPxJ1VcAha1ohInb3jgThcQ73WV1KR1EFYZXPAbg4q47_CN99XQXgWRxM-8dwpLK1OtjJGHPFpUakupQTK6nFIeMMKRgKRc0nl90mDY8rlNHq_WZvC6VugtvH4POkjAg=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 
 body#app-family-guy-the-quest-for-stuff {
     background: url(https://lh3.googleusercontent.com/DnIluQtFjj6w_6IPiFD3yPwYbWMPLXVvqmo1leFwIcoVE92LiPYx1Hmqt0J-ZHkcfccO9BZ2PlUWfEtqb_-fUf_tH97B-BQkG8_SGAcCwW0zJhb8DDzi0JPgtuBUlskwKbtsqZsT4Q=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
--webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 body#app-futurama-worlds-of-tomorrow{
     background: url(https://lh3.googleusercontent.com/SJx1lWIAcZxwT0TpiG9GR1xmsuoLwZbhQzQY-pnWTk5RG6c7eIeeIfLSTaOvCuOuxsts8-YEqrO_2RBkiUydB4tn-7uynOPULAub0DOVOad8LGWMyU4D7mJUsgniuQSV8lUPtTs2IQ=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 
 body#app-emoji-blitz{
     background: url(https://lh3.googleusercontent.com/qHOM7J-5-qteRHAZD96qc_MSz-2n6LE0b0oKj28cELGgOHE-xNV_qyHOTizbcaVBiwcps-6osdEUypQFEIEIhP_D5mhpDOd7a-I3_XF4VthvB54jc7Ew-cc16x0JLYqpNOVBlqcMdQ=w2400?.jpg)  no-repeat center;
     font-family: Uptown,sans-serif !important;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
 }
 
 
