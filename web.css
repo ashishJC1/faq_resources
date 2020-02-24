@@ -57,6 +57,15 @@ body#app-cookie-jam-blast  {
      background-size: cover;
 }
 
+
+body#app-world-war-doh  {
+  background:  url(https://www.dropbox.com/s/a4cqolrcbmqw23m/WWD_art.png?raw=1) no-repeat center;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: black;
+}
 body#app-wild-things-animal-adventures {
    
     background: url(https://lh3.googleusercontent.com/u8LYjQzHgrVokpQIIMTGZoTHkWZIWfTjw8wZQRM2f9-DJVdenmKDBs0CUkrZY0Zzkq1cw-t_iVDfinaijyK5Pq8LkNdpGZ5MPm_04JEkwPgLhOmGRtyovy-iEMVkzcNli7MjLHIKHw=w2400?.jpg) no-repeat center;
@@ -97,14 +106,7 @@ body#app-frozen-adventures {
     background-size: cover;
 }
 
-body#app-cookie-jam-blast  {
 
-    background: url(https://www.dropbox.com/s/7bi01p0vrcm5uft/CJB.png?raw=1) no-repeat center;
-    -webkit-background-size: cover;
-     -moz-background-size: cover;
-      -o-background-size: cover;
-    background-size: cover;
-}
 
 body#app-panda-pop  {
 
@@ -151,17 +153,7 @@ body#app-genies-and-gems  {
      -moz-background-size: cover;
       -o-background-size: cover;
   background-size: cover;
-}
-body#app-world-war-doh  {
-background:  url(https://www.dropbox.com/s/a4cqolrcbmqw23m/WWD_art.png?raw=1) no-repeat center;
 
-    font-family: Uptown,sans-serif !important;
-    color: #fff; 
-    -webkit-background-size: cover;
-     -moz-background-size: cover;
-      -o-background-size: cover;
-    background-size: cover;
-    background-color: black;
 }
 body#app-family-guy-afmg {
    /* background-color: #B7CB88; */
